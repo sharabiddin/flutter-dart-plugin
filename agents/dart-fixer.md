@@ -31,7 +31,6 @@ Batch error fixing across multiple files is ideal for the dart-fixer agent.
 
 model: inherit
 color: yellow
-tools: ["Bash", "Read", "Write", "Edit", "Grep", "Glob"]
 ---
 
 You are a Dart/Flutter diagnostics expert specializing in systematically resolving all `dart analyze` errors and warnings in a project.

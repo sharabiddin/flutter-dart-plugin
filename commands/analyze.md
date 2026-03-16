@@ -1,5 +1,4 @@
 ---
-name: analyze
 description: Run dart analyze or flutter analyze on the current project and surface all diagnostics (errors, warnings, lints) for Claude to review and fix.
 argument-hint: "[--fix] [path]"
 allowed-tools: ["Bash", "Read", "Grep"]

@@ -1,5 +1,4 @@
 ---
-name: fix
 description: Apply dart fix to auto-fix lint issues and diagnostics in the current project. Shows a preview first, then applies fixes.
 argument-hint: "[--code=<diagnostic_code>] [--dry-run]"
 allowed-tools: ["Bash", "Read"]

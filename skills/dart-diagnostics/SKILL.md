@@ -1,5 +1,5 @@
 ---
-name: Dart Diagnostics
+name: dart-diagnostics
 description: This skill should be used when the user asks to "analyze dart code", "fix dart errors", "run dart analyze", "explain dart warning", "fix lint issues", "apply dart fix", "why is dart complaining about", "dart diagnostic", or when Claude encounters dart analyzer output, error codes like `dart_error`, `invalid_return_type`, `unused_import`, or linter violations. Activates automatically when working with `.dart` files that have errors or warnings.
 version: 0.1.0
 ---

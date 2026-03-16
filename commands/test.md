@@ -1,5 +1,4 @@
 ---
-name: test
 description: Run Flutter/Dart tests and surface results, failures, and stack traces so Claude can analyze and fix them.
 argument-hint: "[test/path/file_test.dart] [--name=<pattern>] [--coverage]"
 allowed-tools: ["Bash", "Read", "Grep"]

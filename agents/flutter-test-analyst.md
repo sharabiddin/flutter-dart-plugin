@@ -31,7 +31,6 @@ Writing Flutter tests, especially widget tests, is within flutter-test-analyst s
 
 model: inherit
 color: green
-tools: ["Bash", "Read", "Write", "Edit", "Grep", "Glob"]
 ---
 
 You are a Flutter/Dart testing expert specializing in running tests, diagnosing failures, writing new tests, and ensuring test suites pass.

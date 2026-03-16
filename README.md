@@ -37,6 +37,8 @@ cp -r /path/to/flutter-dart-plugin ~/.claude/plugins/flutter-dart
 | `/flutter-dart:test` | Run tests, analyze failures | `/flutter-dart:test test/login_test.dart` |
 | `/flutter-dart:pub-add` | Add a package | `/flutter-dart:pub-add http --dev` |
 | `/flutter-dart:pub-upgrade` | Upgrade packages | `/flutter-dart:pub-upgrade --major` |
+| `/flutter-dart:find-refs` | Find all usages via text search (ripgrep) | `/flutter-dart:find-refs LoginBloc` |
+| `/flutter-dart:usages` | Find all usages via LSP (semantic, accurate) | `/flutter-dart:usages LoginBloc` |
 
 ## Agents
 

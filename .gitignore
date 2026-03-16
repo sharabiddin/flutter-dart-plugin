@@ -1,1 +1,17 @@
+# Local plugin settings
 .claude/*.local.md
+.claude/*.local.json
+
+# Dart/Flutter
+.dart_tool/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# macOS
+.DS_Store
+
+# Editor
+.idea/
+*.iml
+*.swp

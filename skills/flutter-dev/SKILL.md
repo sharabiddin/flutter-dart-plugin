@@ -1,5 +1,5 @@
 ---
-name: Flutter Development
+name: flutter-dev
 description: This skill should be used when the user asks to "add a flutter package", "add dependency", "update pubspec", "upgrade packages", "run flutter pub get", "pub upgrade", "what package should I use for X", "flutter pub add", "add to pubspec.yaml", "check for package updates", or when working with `pubspec.yaml`, managing Flutter/Dart project dependencies, or asking about recommended packages. Also activates when running Flutter tests, build commands, or common Flutter CLI operations.
 version: 0.1.0
 ---

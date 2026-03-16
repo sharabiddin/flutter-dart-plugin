@@ -1,5 +1,4 @@
 ---
-name: pub-upgrade
 description: Show outdated Flutter/Dart packages and upgrade them, with control over which packages to upgrade.
 argument-hint: "[--major] [<package_name>]"
 allowed-tools: ["Bash", "Read", "Write"]

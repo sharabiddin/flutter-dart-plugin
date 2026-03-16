@@ -21,6 +21,15 @@ if [[ ! -f "$project_dir/pubspec.yaml" ]]; then
   exit 0
 fi
 
+# Respect auto_analyze: false in .claude/flutter-dart.local.md
+local_settings="$project_dir/.claude/flutter-dart.local.md"
+if [[ -f "$local_settings" ]]; then
+  auto_analyze=$(grep -m1 "^auto_analyze:" "$local_settings" | awk '{print $2}' || true)
+  if [[ "$auto_analyze" == "false" ]]; then
+    exit 0
+  fi
+fi
+
 # Determine dart or flutter
 if grep -q "sdk: flutter" "$project_dir/pubspec.yaml" 2>/dev/null; then
   ANALYZE_CMD="flutter analyze"
@@ -31,7 +40,6 @@ fi
 # Run analyzer, capture output
 cd "$project_dir"
 analyze_output=$($ANALYZE_CMD 2>&1) || true
-exit_code=$?
 
 # If no issues, silently exit
 if echo "$analyze_output" | grep -q "No issues found!"; then

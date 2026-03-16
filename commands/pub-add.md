@@ -1,5 +1,4 @@
 ---
-name: pub-add
 description: Add a Flutter/Dart package dependency to pubspec.yaml and run pub get.
 argument-hint: "<package_name> [--dev] [--version=^x.y.z]"
 allowed-tools: ["Bash", "Read", "Write"]
