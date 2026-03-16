@@ -1,0 +1,17 @@
+{
+  "description": "Auto-run dart analyze after editing .dart files and surface new diagnostics to Claude",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash $CLAUDE_PLUGIN_ROOT/hooks/scripts/dart-analyze-on-edit.sh",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}

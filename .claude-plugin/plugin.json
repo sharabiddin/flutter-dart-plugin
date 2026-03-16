@@ -1,0 +1,9 @@
+{
+  "name": "flutter-dart",
+  "version": "0.1.0",
+  "description": "Flutter/Dart developer toolkit: diagnostics, analysis, testing, and dependency management via CLI integration",
+  "author": {
+    "name": "Sharabiddin Ahmayev"
+  },
+  "keywords": ["flutter", "dart", "lsp", "diagnostics", "testing", "pub"]
+}
